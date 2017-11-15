@@ -1,0 +1,1008 @@
+{
+  "atendimentos": [{
+    "_id": "59d52454ba66690001902267",
+    "createdAt": "2017-10-04T18:11:32.286Z",
+    "updatedAt": "2017-10-05T16:23:58.474Z",
+    "contato": {
+        "nome": "LEANDRO / LAIS",
+        "telefone": "1129190283",
+        "_id": "59d5458bba66690001a8cc19",
+        "observacao": "(11)7000-3742",
+        "celular": "11940000915",
+        "email": "mercadotalita@hotmail.com"
+    },
+    "endereco": {
+        "cep": "03977500",
+        "rua": "Rua Cléo de Merode",
+        "bairro": "Fazenda da Juta",
+        "numero": "100",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "_id": "59d5458bba66690001a8cc18",
+        "ponto_referencia": "APÓS O VENCEDOR",
+        "complemento": ""
+    },
+    "createdBy": "natali",
+    "updatedBy": "natali",
+    "situacao": {
+        "motivo": "CHAMADO ANTECIPADO",
+        "status": "encaixe"
+    },
+    "estado": "associado",
+    "fim": null,
+    "inicio": null,
+    "km_final": {
+        "data": null,
+        "km": null
+    },
+    "km_inicio": {
+        "data": null,
+        "km": null
+    },
+    "observacao": "IR NO PERIODO DA MANHÃ (08 ÀS 12)/PROCURAR POR LEANDRO OU JOÃO CARLOS",
+    "avaliacao": [],
+    "autorizado": "",
+    "valor": 192,
+    "tipo": "NF - Avulso local",
+    "tecnico": {
+        "nome": ""
+    },
+    "estacionamento": "Cliente não informou",
+    "numero_equipamento": "000000",
+    "modelo_equipamento": "HENRY PLUS",
+    "testes_efetuados": "SEM TESTES - NF",
+    "descricao": "VERIFICAR RELÓGIO HENRY PLUS ( MENSAGEM \" CAB NÃO SAIU DO PONTO 0\")",
+    "data_atendimento": "2017-10-05T03:00:00.000Z",
+    "imagens": [],
+    "cliente": {
+        "nome_razao_social": "JOAO CARLOS MONTEIRO MACIEL EPP",
+        "cnpj_cpf": "14495128000188",
+        "inscricao_estadual": null,
+        "nome_fantasia": "MERCADO TALITA"
+    }
+}, {
+  "_id": "59d524d2ba66690001902e03",
+  "createdAt": "2017-10-04T18:13:38.004Z",
+  "updatedAt": "2017-10-04T18:13:38.004Z",
+  "contato": {
+      "nome": "SIDNEI",
+      "telefone": "1136996120",
+      "_id": "59d524d2ba66690001902e05",
+      "observacao": "01 RELÓGIO HENRY PLUS\n01 CHAPEIRA DE 10 LUGARES\n50 CARTOES CARTOGRAFICOS\n04/04/2017\nROSANGELA\n\nMESMO GRUPO: DERMOVIDA ALPHAVILLE LTDA EPP - CNPJ 03.141.409/0001-16",
+      "celular": "",
+      "email": "danielerhdermovida@yahoo.com.br"
+  },
+  "endereco": {
+      "cep": "06320090",
+      "rua": "AVENIDA CORIFEU DE AZEVEDO MARQUES",
+      "bairro": "CENTRO",
+      "numero": "147",
+      "cidade": "CARAPICUÍBA",
+      "uf": "SP",
+      "_id": "59d524d2ba66690001902e04",
+      "ponto_referencia": "DE FRENTE AO HOSPITAL ALFAMED",
+      "complemento": ""
+  },
+  "createdBy": "JESUS",
+  "updatedBy": "JESUS",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "associado",
+  "fim": null,
+  "inicio": null,
+  "km_final": {
+      "data": null,
+      "km": null
+  },
+  "km_inicio": {
+      "data": null,
+      "km": null
+  },
+  "observacao": "QUEM VAI ATENDER NO LOCAL É O SIDNEY, HORÁRIO DE ATENDIMENTO DAS 8HRS AS 18HRS, TEM ESTACIONAMENTO NO LOCAL.",
+  "avaliacao": [],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Garantia venda",
+  "tecnico": {
+      "nome": ""
+  },
+  "estacionamento": "Estacionamento no local",
+  "numero_equipamento": "0000",
+  "modelo_equipamento": "HENRY PLUS",
+  "testes_efetuados": "DESLIGAR E LIGAR, GIRAR A FITA, LIGOU POSTERIORMENTE REFIZEMOS OS TESTES, SEM SUCESSO. ",
+  "descricao": "HENRY PLUS - VERIFICAR RELÓGIO QUE ESTÁ COM A MARCAÇÃO FRACA E BORRANDO",
+  "data_atendimento": "2017-10-05T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "nome_razao_social": "ORGANIZACAO FARMACEUTICA DERMOVIDA LTDA EPP",
+      "cnpj_cpf": "02888621000189",
+      "inscricao_estadual": "",
+      "nome_fantasia": "DERMOVIDA"
+  }
+},
+{
+  "_id": "59d52581ba666900019045d4",
+  "createdAt": "2017-10-04T18:16:33.060Z",
+  "updatedAt": "2017-10-19T21:26:05.486Z",
+  "contato": {
+      "nome": "ALEXANDRE",
+      "telefone": "1130791217",
+      "_id": "59d52581ba666900019045d6",
+      "observacao": "",
+      "celular": "",
+      "email": "alexandre.asp1977@gmail.com"
+  },
+  "endereco": {
+      "cep": "04531020",
+      "rua": "RUA DA MATA",
+      "bairro": "ITAIM BIBI",
+      "numero": "109",
+      "cidade": "SAO PAULO",
+      "uf": "SP",
+      "_id": "59d52581ba666900019045d5",
+      "ponto_referencia": "ESQUINA COM A NOVE JULHO. PROXIMO AO RESTAURANTE AMÉRICA",
+      "complemento": ""
+  },
+  "createdBy": "ALINE LUCENA",
+  "updatedBy": "ALINE LUCENA",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-19T21:26:04.223Z",
+  "inicio": "2017-10-19T21:26:00.507Z",
+  "km_final": {
+      "data": "2017-10-19T21:25:56.154Z",
+      "km": 2
+  },
+  "km_inicio": {
+      "data": "2017-10-19T21:25:52.548Z",
+      "km": 2
+  },
+  "observacao": "FUNCIONAMENTO: 08 ÀS 14/ PROCURAR POR ALEXANDRE (ZELADOR ) OU FABIO",
+  "avaliacao": [],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Garantia externa",
+  "tecnico": {
+      "_id": "59d2739d580665000146b002",
+      "nome": "EMERSON PEREIRA DE SOUSA"
+  },
+  "estacionamento": "Estacionamento no local",
+  "numero_equipamento": "00000",
+  "modelo_equipamento": "HENRY PLUS",
+  "testes_efetuados": "RELÓGIO TEVE A MEMÓRIA APAGADA NA VISITA DO DIA 19/09 E  RELÓGIO AJUSTADO",
+  "descricao": "VERIFICAR RELÓGIO HENRY PLUS (NÚMEROS ESTÃO MAIORES QUE O NORMAL)",
+  "data_atendimento": "2017-10-06T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "nome_razao_social": "CONDOMINIO EDIFICIO PACO DA MATTA",
+      "cnpj_cpf": "54199708000142",
+      "inscricao_estadual": "",
+      "nome_fantasia": "COND ED PACO DA MATTA"
+  }
+},
+{
+  "_id": "59d525ccba66690001905357",
+  "createdAt": "2017-10-04T18:17:48.999Z",
+  "updatedAt": "2017-10-05T18:44:50.683Z",
+  "contato": {
+      "nome": "THAISE OU KARINE",
+      "telefone": "1146467090",
+      "_id": "59d525ccba66690001905359",
+      "observacao": "PRISMA BIO PROX\nSECULLUN 4 200F\nBOBINA\n\nCHAVE DE REGISTRO LIBERADA EM 15/03/2013",
+      "celular": "11968552121",
+      "email": "THAISE.SOUZA@COMPROMESSO.COM.BR"
+  },
+  "endereco": {
+      "cep": "08597630",
+      "rua": "Rua Flor de Noiva",
+      "bairro": "Quinta da Boa Vista (Industrial)",
+      "numero": "537",
+      "cidade": "Itaquaquecetuba",
+      "uf": "SP",
+      "_id": "59d525ccba66690001905358",
+      "ponto_referencia": "TRAVESSA DA AV. THEVEAR",
+      "complemento": ""
+  },
+  "createdBy": "JONATHAN NEVES",
+  "updatedBy": "JONATHAN NEVES",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-05T18:43:53.068Z",
+  "inicio": "2017-10-05T17:49:23.946Z",
+  "km_final": {
+      "data": "2017-10-05T17:43:24.664Z",
+      "km": 213079
+  },
+  "km_inicio": {
+      "data": "2017-10-05T17:11:33.442Z",
+      "km": 213052
+  },
+  "observacao": "HORARIO DE ATENDIMENTO : 08:00 AS 19:00 C/ THAISE OU KARINE NÃO TEM ESTACIONAMENTO",
+  "avaliacao": [
+      {
+          "pergunta": "Como você avalia o atendimento do técnico?",
+          "_id": "59d67d6a744b5200018dbe14",
+          "valor": 5
+      },
+      {
+          "pergunta": "Você indicaria a RealPonto?",
+          "_id": "59d67d6a744b5200018dbe13",
+          "valor": 5
+      }
+  ],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Garantia externa",
+  "tecnico": {
+      "_id": "59d2728b580665000146ad67",
+      "nome": "DIEGO DE JESUS NUNES"
+  },
+  "estacionamento": "Cliente não informou",
+  "numero_equipamento": "03488",
+  "modelo_equipamento": "PRISMA J",
+  "testes_efetuados": "CLIENTE INFORMOU QUE FEZ TESTES POSICIONAMENTO DO PAPEL, DESLIGOU E LIGOU.\nSEGUNDO A OS 4128 FOI FEITA A TROCA DA IMPRESSORA NO DIA 23/08/2017 E NA OS 4483 FOI FEITO AJUSTES",
+  "descricao": "VERIFICAR RELOGIO PRISMA J Nº 03488 (NÃO ESTA PUXANDO PAPEL)",
+  "data_atendimento": "2017-10-05T03:00:00.000Z",
+  "imagens": [
+      {
+          "url": "835c945f78990b4261e8120049c4dcca.png",
+          "tipo": "fim_atendimento",
+          "_id": "59d67da2744b5200018e8aa3"
+      }
+  ],
+  "cliente": {
+      "nome_razao_social": "COMPROMESSO IND METALURGICA LTDA EPP",
+      "cnpj_cpf": "09563363000100",
+      "inscricao_estadual": "379173850112",
+      "nome_fantasia": "COMPROMESSO"
+  }
+},
+{
+  "_id": "59d525d8ba66690001905480",
+  "createdAt": "2017-10-04T18:18:00.149Z",
+  "updatedAt": "2017-10-06T14:27:52.944Z",
+  "contato": {
+      "nome": "MARCELO",
+      "telefone": "1137743680",
+      "_id": "59d525d8ba66690001905482",
+      "observacao": "ISABEL QUE ABRIU O CHAMADO",
+      "celular": "1137743682",
+      "email": "financeiro@comercialsmart.com.br"
+  },
+  "endereco": {
+      "cep": "02113017",
+      "rua": "AVENIDA GUILHERME COTCHING",
+      "bairro": "VILA MARIA",
+      "numero": "2001",
+      "cidade": "SAO PAULO",
+      "uf": "SP",
+      "_id": "59d525d8ba66690001905481",
+      "ponto_referencia": "AO LADO DA OTICA CAROL",
+      "complemento": ""
+  },
+  "createdBy": "patricio",
+  "updatedBy": "patricio",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-06T14:27:25.030Z",
+  "inicio": "2017-10-06T13:53:23.321Z",
+  "km_final": {
+      "data": "2017-10-06T13:25:23.612Z",
+      "km": 131229
+  },
+  "km_inicio": {
+      "data": "2017-10-06T12:00:03.519Z",
+      "km": 131202
+  },
+  "observacao": "SE POSSÍVEL ANTECIPAR, ATENDIMENTO DAS 8 AS 18",
+  "avaliacao": [],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Contrato",
+  "tecnico": {
+      "_id": "59d27521580665000146b535",
+      "nome": "CLEITON ROBERIO CORDEIRO "
+  },
+  "estacionamento": "Cliente não informou",
+  "numero_equipamento": "00004001900025591",
+  "modelo_equipamento": "PRISMA SF R02",
+  "testes_efetuados": "TROCADO LADO DA ROLDANA, RECOLOCADO PAPEL, ATIVADO CORTE TOTAL",
+  "descricao": "VERIFICAR PRISMA SF R02 (00004001900025591) NÃO PUXA PAPEL",
+  "data_atendimento": "2017-10-06T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "nome_razao_social": "SMART COMERCIO DE MERCADORIAS EM GERAL LTDA",
+      "cnpj_cpf": "01235839000171",
+      "inscricao_estadual": "114661812110",
+      "nome_fantasia": "SMART COMERCIO"
+  }
+},
+{
+  "_id": "59d52600ba66690001905ab9",
+  "createdAt": "2017-10-04T18:18:40.047Z",
+  "updatedAt": "2017-10-16T10:19:43.312Z",
+  "contato": {
+      "telefone": "1141950356",
+      "nome": "FABIO",
+      "_id": "59d52600ba66690001905abb",
+      "observacao": null,
+      "celular": null,
+      "email": "FABIOO.BDS@HOTMAIL.COM"
+  },
+  "endereco": {
+      "uf": "SP",
+      "cidade": "BARUERI",
+      "numero": "119",
+      "bairro": "ALPHAVILLE COMERCIAL",
+      "rua": "CALCADA DAS MARGARIDAS",
+      "cep": "06453038",
+      "_id": "59d52600ba66690001905aba",
+      "ponto_referencia": "",
+      "complemento": ""
+  },
+  "createdBy": "ALINE LUCENA",
+  "updatedBy": "ALINE LUCENA",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-16T10:19:40.943Z",
+  "inicio": "2017-10-16T10:19:31.763Z",
+  "km_final": {
+      "data": "2017-10-16T10:19:28.691Z",
+      "km": 2
+  },
+  "km_inicio": {
+      "data": "2017-10-09T20:56:07.020Z",
+      "km": 1
+  },
+  "observacao": "FUNCIONAMENTO: 09 ÀS 18:30 / PROCURAR FABIO OU CINTIA",
+  "avaliacao": [],
+  "autorizado": null,
+  "valor": null,
+  "tipo": "Garantia venda",
+  "tecnico": {
+      "_id": "59d27233580665000146aca1",
+      "nome": "ANTONIO CARLOS DE SOUSA JUNIOR"
+  },
+  "estacionamento": "Cliente não informou",
+  "numero_equipamento": "0000000",
+  "modelo_equipamento": "HENRY PLUS",
+  "testes_efetuados": "DESLIGAR E LIGAR. AJUSTAR A FITA. A FITA POSSUI TINTA, MAS O RELÓGIO APENAS FAZ BARULHO E NÃO MARCA",
+  "descricao": "VERIFICAR RELÓGIO HENRY PLUS (NÃO MARCA)",
+  "data_atendimento": "2017-10-06T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "cnpj_cpf": "03141409000116",
+      "nome_razao_social": "DERMOVIDA ALPHAVILLE LTDA EPP",
+      "inscricao_estadual": "206109673116",
+      "nome_fantasia": "DERMOVIDA ALPHAVILLE"
+  }
+},
+{
+  "_id": "59d52638ba666900019067d0",
+  "createdAt": "2017-10-04T18:19:36.953Z",
+  "updatedAt": "2017-10-05T17:28:20.578Z",
+  "contato": {
+      "telefone": "11980882830",
+      "nome": "BENEDITO",
+      "_id": "59d66bb4744b52000151937a",
+      "observacao": "01 RELOGIO PRISMA R02 SF300 DIGITAIS\n01 SOFTWARE SECULLUM PARA 200 FUNCIONÁRIOS\n01 BOBINA DE 300 METROS\n18 06 2015\nROSANGELA\n\nCHAVE DE REGISTRO LIBERADA EM 22 06 2015",
+      "celular": "1155833674",
+      "email": "BENEDITOSANTOS308@GMAIL.OCM"
+  },
+  "endereco": {
+      "uf": "SP",
+      "cidade": "São Paulo",
+      "numero": "67",
+      "bairro": "Vila Guarani (Z Sul)",
+      "rua": "Rua Humberto de Campos",
+      "cep": "04311080",
+      "_id": "59d66bb4744b520001519379",
+      "ponto_referencia": "IGREJA SÃO JOÃO BASTISTA NA AV. DO CAFÉ",
+      "complemento": ""
+  },
+  "createdBy": "alan",
+  "updatedBy": "alan",
+  "situacao": {
+      "motivo": "",
+      "status": "reagendar"
+  },
+  "estado": "associado",
+  "fim": null,
+  "inicio": null,
+  "km_final": {
+      "data": null,
+      "km": null
+  },
+  "km_inicio": {
+      "data": null,
+      "km": null
+  },
+  "observacao": "HORARIO DE ATENDIMENTO : 8:00 AS 17:00 C/ BENEDITO TEM ESTACIONAMENTO ",
+  "avaliacao": [],
+  "autorizado": "",
+  "valor": 224,
+  "tipo": "NF - Avulso local",
+  "tecnico": {
+      "nome": ""
+  },
+  "estacionamento": "Estacionamento no local",
+  "numero_equipamento": "46598",
+  "modelo_equipamento": "PRISMA SF R02",
+  "testes_efetuados": "SEM TESTES EFETUADOS - NF",
+  "descricao": "VERIFICAR RELÓGIO PRISMA SF R02 00004001900046598 (NÃO IMPRIME COMPROVANTE)",
+  "data_atendimento": "2017-10-05T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "cnpj_cpf": "54581319000187",
+      "nome_razao_social": "CONDOMINIO EDIFICIO CONJUNTO JARDINS DE GENEVE",
+      "inscricao_estadual": "",
+      "nome_fantasia": "GENEVE"
+  }
+},
+{
+  "_id": "59d5266fba66690001907533",
+  "createdAt": "2017-10-04T18:20:31.466Z",
+  "updatedAt": "2017-10-06T17:48:32.781Z",
+  "contato": {
+      "nome": "CAMILA",
+      "telefone": "00115092581",
+      "_id": "59d761ce744b52000191518f",
+      "observacao": null,
+      "celular": null,
+      "email": "RH@RADIOWAY.COM.BR"
+  },
+  "endereco": {
+      "cep": "04564030",
+      "rua": "RUA LOS ANGELES",
+      "bairro": "CIDADE MONCOES",
+      "numero": "90",
+      "cidade": "SAO PAULO",
+      "uf": "SP",
+      "_id": "59d761ce744b52000191518e",
+      "ponto_referencia": "TRAVESSA COM A RUA PADRE ANTONIO ",
+      "complemento": ""
+  },
+  "createdBy": "alan",
+  "updatedBy": "alan",
+  "situacao": {
+      "motivo": "",
+      "status": ""
+  },
+  "estado": "associado",
+  "fim": null,
+  "inicio": null,
+  "km_final": {
+      "data": null,
+      "km": null
+  },
+  "km_inicio": {
+      "data": null,
+      "km": null
+  },
+  "observacao": "SE FOR DE MANHÃ IR ANTES DAS 10HRS/ A TARDE A PARTIR DAS 14/ ENCERRA AS 18. SEM ESTACIONAMENTO. PROCURAR POR CAMILA.",
+  "avaliacao": [],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Contrato",
+  "tecnico": {
+      "_id": "59d2764e580665000146b985",
+      "nome": "PETERSON LUCIO ALVES"
+  },
+  "estacionamento": "Cliente não informou",
+  "numero_equipamento": "000000000000000",
+  "modelo_equipamento": "PONTO SECULLUM 4",
+  "testes_efetuados": "SEM TESTES ",
+  "descricao": "TREINAMENTO DO SISTEMA PONTO SECULLUM 4 ( USUARIA NOVA. POSSUI BANCO DE HORAS EM ALGUNS CASOS)",
+  "data_atendimento": "2017-10-09T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "nome_razao_social": "RADIO WAY COMERCIO DE EQUIPAMENTOS E SERVICOS LTDA - EPP",
+      "cnpj_cpf": "01.133.357/0001-00",
+      "inscricao_estadual": "114652780119",
+      "nome_fantasia": "RADIO WAY"
+  }
+},
+{
+  "_id": "59d526d0ba66690001908a22",
+  "createdAt": "2017-10-04T18:22:08.054Z",
+  "updatedAt": "2017-10-16T10:23:46.134Z",
+  "contato": {
+      "nome": "JOSÉ",
+      "telefone": "1141563363",
+      "_id": "59d526d0ba66690001908a24",
+      "observacao": "",
+      "celular": "1141563363",
+      "email": "miniplay@uol.com.br"
+  },
+  "endereco": {
+      "cep": "06530445",
+      "rua": "RUA MATO GROSSO",
+      "bairro": "FAZENDINHA",
+      "numero": "105",
+      "cidade": "SANTANA DE PARNAÍBA",
+      "uf": "SP",
+      "_id": "59d526d0ba66690001908a23",
+      "ponto_referencia": "AV TENENTE MARQUES / PROXIMO AO SENAI ",
+      "complemento": "ANTIGO 70"
+  },
+  "createdBy": "JHONATAN SOUSA",
+  "updatedBy": "JHONATAN SOUSA",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-16T10:23:44.835Z",
+  "inicio": "2017-10-16T10:23:40.843Z",
+  "km_final": {
+      "data": "2017-10-16T10:23:38.032Z",
+      "km": 2
+  },
+  "km_inicio": {
+      "data": "2017-10-16T10:23:34.196Z",
+      "km": 1
+  },
+  "observacao": "FALAR COM RAFAEL, CLAUDINEI OU EVANDRO / HORÁRIO DE ATENDIMENTO: 07H ÀS 17H / SEM ESTACIONAMENTO NO LOCAL / MINIPLAY",
+  "avaliacao": [],
+  "autorizado": "",
+  "valor": 437,
+  "tipo": "NF - Avulso local",
+  "tecnico": {
+      "_id": "59d27233580665000146aca1",
+      "nome": "ANTONIO CARLOS DE SOUSA JUNIOR"
+  },
+  "estacionamento": "Cliente não informou",
+  "numero_equipamento": "0000000000000",
+  "modelo_equipamento": "IDNOX",
+  "testes_efetuados": "NF. SEM TESTES",
+  "descricao": "RELÓGIO IDNOX BLOQUEADO / LEITOR AS VEZES NÃO LIGA.",
+  "data_atendimento": "2017-10-06T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "nome_razao_social": "MINI PLAY IND. E COM. DE PLÁSTICOS LTDA",
+      "cnpj_cpf": "53552790000184",
+      "inscricao_estadual": "623013674118",
+      "nome_fantasia": "MINI PLAY"
+  }
+},
+{
+  "_id": "59d5285fba6669000191001b",
+  "createdAt": "2017-10-04T18:28:47.809Z",
+  "updatedAt": "2017-10-04T18:28:47.809Z",
+  "contato": {
+      "nome": "LUCIENE",
+      "telefone": "1141897000",
+      "_id": "59d5285fba6669000191001d",
+      "observacao": "02 PRISMA SF R02 300 DIG - 01 SOFTWARE P/200 FUNC - 01 BOBINA 300 MTS - 18 CRACHÁS PROX\n01/10/2014 - GEANE\n\nCHAVE DE REGISTRO LIBERADA EM 14/10/2014\n\n06 BOBINAS DE 300 METROS\n06/06/2016\nROSANGELA",
+      "celular": "",
+      "email": "luciene.santos@gdsusa.com.br"
+  },
+  "endereco": {
+      "cep": "06394050",
+      "rua": "RUA FERRUCIO BRINATTI",
+      "bairro": "VILA SUL AMERICANA",
+      "numero": "231",
+      "cidade": "CARAPICUÍBA",
+      "uf": "SP",
+      "_id": "59d5285fba6669000191001c",
+      "ponto_referencia": "PROXIMO A ESCOLA VICTORIO FORNAZARO",
+      "complemento": ""
+  },
+  "createdBy": "joao",
+  "updatedBy": "joao",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "associado",
+  "fim": null,
+  "inicio": null,
+  "km_final": {
+      "data": null,
+      "km": null
+  },
+  "km_inicio": {
+      "data": null,
+      "km": null
+  },
+  "observacao": "ATENDIMENTO: 08:00 AS 17:00 // NÃO 12:30 AS 13:30 TEM ESTACIONAMENTO ",
+  "avaliacao": [],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Garantia externa",
+  "tecnico": {
+      "nome": ""
+  },
+  "estacionamento": "Estacionamento no local",
+  "numero_equipamento": "00004001900034132",
+  "modelo_equipamento": "PRISMA SF R02",
+  "testes_efetuados": "CLIENTE VERIFICOU A ROLDONA SE ESTAVA INVERTIDA, DISSE QUE ESTAVA VIRADO PRA ELA, DESLIGADO E LIGADO O RELOGIO + AJUSTADO BOBINA COM CLIENTE, POREM ARRUMA E DEPOIS VOLTA A ENRROSCAR",
+  "descricao": "VERIFICAR 01 RELOGIO PRISMA SF R02 Nº (34132) ENRROSCANDO PAPEL",
+  "data_atendimento": "2017-10-05T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "nome_razao_social": "GDS GROW DIETARY SUPPLEMENTS DO BRASIL LTDA",
+      "cnpj_cpf": "19897687000138",
+      "inscricao_estadual": "255281616115",
+      "nome_fantasia": "GDS GROW - GDS DO BRASIL"
+  }
+},
+{
+  "_id": "59d52894ba66690001911280",
+  "createdAt": "2017-10-04T18:29:40.849Z",
+  "updatedAt": "2017-10-09T11:29:03.231Z",
+  "contato": {
+      "nome": "CRISTINA",
+      "telefone": "1144211656",
+      "_id": "59d52894ba66690001911282",
+      "observacao": "01 HENRY PLUS  \n01 CHAPEIRA 25 \n100 CARTOES \n21/12/2011\nSHEILA \n\n01 HENRY PLUS \n01 CHAPEIRA 20 \n50 CARTOES \n10/05/2012\nSHEILA\n\n400 CARTOES CARTOGRAFICOS\n26/05/2014 \nGEANE\n\n01 RELOGIO PRISMA SF R04 BIO / 01 SOFTWARE INSPELL 250 FUNC / 01 BOBINA 57X300 METROS\n28/09/2017\nSHEILA",
+      "celular": "",
+      "email": "LUDENS@LUDENSSPIRIT.COM.BR"
+  },
+  "endereco": {
+      "cep": "09070310",
+      "rua": "Avenida Tietê",
+      "bairro": "Campestre",
+      "numero": "2491",
+      "cidade": "Santo André",
+      "uf": "SP",
+      "_id": "59d52894ba66690001911281",
+      "ponto_referencia": "TRAVESSA DA RUA MARINA / AO LADO DO POSTO SHELL",
+      "complemento": ""
+  },
+  "createdBy": "JHONATAN SOUSA",
+  "updatedBy": "JHONATAN SOUSA",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-06T14:04:29.190Z",
+  "inicio": "2017-10-06T12:33:03.676Z",
+  "km_final": {
+      "data": "2017-10-06T12:07:00.789Z",
+      "km": 114346
+  },
+  "km_inicio": {
+      "data": "2017-10-06T12:06:51.519Z",
+      "km": 114336
+  },
+  "observacao": "FALAR COM CRISTINA OU ANGÉLICA / COMPARECER NO PERÍODO DAS 08H ÀS 12H / COM ESTACIONAMENTO NO LOCAL",
+  "avaliacao": [
+      {
+          "pergunta": "Como você avalia o atendimento do técnico?",
+          "_id": "59d78d5e744b520001e29868",
+          "valor": 5
+      },
+      {
+          "pergunta": "Você indicaria a RealPonto?",
+          "_id": "59d78d5e744b520001e29867",
+          "valor": 5
+      }
+  ],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Garantia venda",
+  "tecnico": {
+      "_id": "59d27326580665000146aecf",
+      "nome": "HERVERSON BARTHOLO MARQUES "
+  },
+  "estacionamento": "Estacionamento no local",
+  "numero_equipamento": "00000000000000000",
+  "modelo_equipamento": "PRISMA SF R04",
+  "testes_efetuados": "SEM TESTES",
+  "descricao": "PRISMA SF R04 - FAZER A INSTALAÇÃO DO EQUIPAMENTO NA PAREDE + TREINAMENTO DO RELÓGIO + SISTEMA INSPELL PARA 2 PESSOAS . AGENDAR COM O TÉCNICO TONY",
+  "data_atendimento": "2017-10-06T03:00:00.000Z",
+  "imagens": [
+      {
+          "url": "b60b4d8a3d5eb93d17cf9634df4560ae.png",
+          "tipo": "fim_atendimento",
+          "_id": "59db5d6f744b52000154080a"
+      },
+      {
+          "url": "56c37ff3b49bf03ab1dbb70ebc863705.png",
+          "tipo": "fim_atendimento",
+          "_id": "59db5d7f744b520001540c66"
+      }
+  ],
+  "cliente": {
+      "nome_razao_social": "ERIC DESHOULIERES ARTIGOS RECREATIVOS ME",
+      "cnpj_cpf": "07482735000148",
+      "inscricao_estadual": "626777531117",
+      "nome_fantasia": "ERIC DESHOULIERES"
+  }
+},
+{
+  "_id": "59d528cbba6669000191255f",
+  "createdAt": "2017-10-04T18:30:35.523Z",
+  "updatedAt": "2017-10-19T21:25:49.096Z",
+  "contato": {
+      "nome": "RODRIGO",
+      "telefone": "1142320944",
+      "_id": "59d528cbba66690001912561",
+      "observacao": "03 SUPER FACIL R02 BIO+PROXIMIDADE\n03 FONTE COM NOBREAK\n01 PONTO SECULLUM 4.0 P/ 200 FUNCIONARIOS\n100 CARTOES DE PROXIMIDADE FRENTE E VERSO COLORIDO\n13/09/2017\nROBERTA",
+      "celular": "1142395515",
+      "email": "financeiro@adsaocaetano.com.br"
+  },
+  "endereco": {
+      "cep": "09540230",
+      "rua": "AVENIDA FERNANDO SIMONSEN",
+      "bairro": "CERAMICA",
+      "numero": "190",
+      "cidade": "SAO CAETANO DO SUL",
+      "uf": "SP",
+      "_id": "59d528cbba66690001912560",
+      "ponto_referencia": "AO LADO PARQUE VERDE CHICO MENDES",
+      "complemento": ""
+  },
+  "createdBy": "natali",
+  "updatedBy": "natali",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-19T21:25:41.665Z",
+  "inicio": "2017-10-19T21:25:16.545Z",
+  "km_final": {
+      "data": "2017-10-19T21:25:14.291Z",
+      "km": 1
+  },
+  "km_inicio": {
+      "data": "2017-10-19T21:25:07.545Z",
+      "km": 1
+  },
+  "observacao": "ATENDIMENTO: 08:00 AS 17:00 // PAUSA DO ALMOÇO : 12:00 AS 13:00 TEM ESTACIONAMENTO ",
+  "avaliacao": [],
+  "autorizado": null,
+  "valor": null,
+  "tipo": "Garantia venda",
+  "tecnico": {
+      "_id": "59d2739d580665000146b002",
+      "nome": "EMERSON PEREIRA DE SOUSA"
+  },
+  "estacionamento": "Estacionamento no local",
+  "numero_equipamento": "00",
+  "modelo_equipamento": "PONTO SECULLUM 4",
+  "testes_efetuados": "AUTORIZADO A ABERTURA DO CHAMADO PELA ROBERTA, POIS CLIENTE ADQUIRIU DUAS LICENÇAS.",
+  "descricao": "TREINAMENTO COMPLETO DO SISTEMA PONTO SECULLUM 4  PARA 2 PESSOAS RODRIGO E CRISTINA. **CLIENTE NOVO,  RETORNO DO TREINAMENTO** TRABALHA COM HORAS EXTRAS + COM ESCALA MENSAL + ESCALA CICLICAS 12X36** **CLIENTE PREFERE O DIEGO COMO O TECNICO PARA RETORNAR**",
+  "data_atendimento": "2017-10-09T03:00:00.000Z",
+  "imagens": [
+      {
+          "url": "188e2a846362d09c012d05880f0a788d.png",
+          "tipo": "inicio_atendimento",
+          "_id": "59e9185d99090c0001611855"
+      }
+  ],
+  "cliente": {
+      "nome_razao_social": "SAO CAETANO FUTEBOL LTDA",
+      "cnpj_cpf": "06.038.055/0001-77",
+      "inscricao_estadual": "",
+      "nome_fantasia": "SC FUTEBOL"
+  }
+},
+{
+  "_id": "59d5290bba66690001913c5a",
+  "createdAt": "2017-10-04T18:31:39.116Z",
+  "updatedAt": "2017-10-04T18:31:39.116Z",
+  "contato": {
+      "nome": "TALITA",
+      "telefone": "1150682446",
+      "_id": "59d5290bba66690001913c5c",
+      "observacao": "KIT HENRY PRISMA J COM SECULLUM 4.0 PARA 200 FUNCIONÁRIOS - 15/05/2013 - ROBERTA MAGRINI\n\nCHAVE DE REGISTRO LIBERADA EM 17/05/2013",
+      "celular": "1150622248",
+      "email": "KIMIKO@KIMIKO.COM.BR"
+  },
+  "endereco": {
+      "cep": "04142092",
+      "rua": "AVENIDA BOSQUE DA SAUDE",
+      "bairro": "SAUDE",
+      "numero": "1955",
+      "cidade": "SAO PAULO",
+      "uf": "SP",
+      "_id": "59d5290bba66690001913c5b",
+      "ponto_referencia": "EM FRENTE AO HOSPITAL NOTREDAME",
+      "complemento": ""
+  },
+  "createdBy": "JHONATAN SOUSA",
+  "updatedBy": "JHONATAN SOUSA",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "associado",
+  "fim": null,
+  "inicio": null,
+  "km_final": {
+      "data": null,
+      "km": null
+  },
+  "km_inicio": {
+      "data": null,
+      "km": null
+  },
+  "observacao": "FALAR COM TALITA / HORÁRIO COMERCIAL / SEM ESTACIONAMENTO NO LOCAL / KIMIKO AUTO CENTER",
+  "avaliacao": [],
+  "autorizado": null,
+  "valor": null,
+  "tipo": "Contrato novo",
+  "tecnico": {
+      "nome": ""
+  },
+  "estacionamento": "Cliente não informou",
+  "numero_equipamento": "00004001650004003",
+  "modelo_equipamento": "PRISMA J",
+  "testes_efetuados": "REINICIAR O RELÓGIO. FEITO O DESBLOQUEIO",
+  "descricao": "PRISMA J - 00004001650004003 - VERIFICAR RELÓGIO QUE QUANDO DESLIGA DA TOMADA ELE BLOQUEIA E QUANDO O FUNCIONÁRIO MARCA, ESTÁ SAINDO DOIS COMPROVANTES",
+  "data_atendimento": "2017-10-05T03:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "nome_razao_social": "AUTO CENTER KIMIKO LTDA ME",
+      "cnpj_cpf": "05482478000119",
+      "inscricao_estadual": "116922376115",
+      "nome_fantasia": "AUTO CENTER KIMIKO"
+  }
+},
+{
+  "_id": "59d52913ba66690001913e20",
+  "createdAt": "2017-10-04T18:31:47.692Z",
+  "updatedAt": "2017-10-16T17:50:10.676Z",
+  "contato": {
+      "telefone": "1140430984",
+      "nome": "CRISLAINE",
+      "_id": "59d52913ba66690001913e22",
+      "observacao": "HENRY PLUS  \nCHAPEIRA 15 NUMEROS  \n100 CARTOES CARTOGRAF\n17/11/2011\nSHEILA\n\n02 FITA DO PLUS\n06/03/2015\nJUSSARA COSTA \n\n01 PRISMA R02 BIO + PROX\n01 SOFTWARE SECULLUM 4.0 P/200 FUNCIONÁRIOS \n07 BOBINAS DE 300 METROS\n01 FONTE/ BATERIA \n30 CARTÕES DE PROX \n07/03/2017\nSHEILA",
+      "celular": "1145441197",
+      "email": "CRIS@LONGWAY.COM.BR"
+  },
+  "endereco": {
+      "uf": "SP",
+      "cidade": "MAUÁ",
+      "numero": "151",
+      "bairro": "SERTAOZINHO",
+      "rua": "RUA FRIEDRICH BISCHOF",
+      "cep": "09370837",
+      "_id": "59d52913ba66690001913e21",
+      "ponto_referencia": "ATERRO SANITARIO LARA",
+      "complemento": ""
+  },
+  "createdBy": "joao",
+  "updatedBy": "joao",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "associado",
+  "fim": null,
+  "inicio": null,
+  "km_final": {
+      "data": null,
+      "km": null
+  },
+  "km_inicio": {
+      "data": null,
+      "km": null
+  },
+  "observacao": "ATENDIMENTO: 07:00 AS 17:00 // NÃO IR ENTRE 12:00 AS 14:00 NAO TEM ESTACIONAMENTO, MAS TEM VAGAS NA RUA",
+  "avaliacao": [],
+  "autorizado": null,
+  "valor": null,
+  "tipo": "Contrato",
+  "tecnico": {
+      "_id": "59d2744d580665000146b1d3",
+      "nome": "ANDRÉ ALMEIDA CIRINO NUNES DA SILVA"
+  },
+  "estacionamento": "Estacionamento no local",
+  "numero_equipamento": "00",
+  "modelo_equipamento": "PONTO SECULLUM 4",
+  "testes_efetuados": "FALEI DO TREINAMENTO NA REAL PONTO, CLIENTE QUIS O TREINAMENTO NO LOCAL MESMO)",
+  "descricao": "TREINAMENTO COMPLETO DO SISTEMA PONTO SECULLUM 4  (PARA 2 PESSOAS, NADIA E MONIQUE) **CLIENTE TRABALHA COM HORAS EXTRAS, USUARIAS NOVAS, HORARIOS FIXOS)",
+  "data_atendimento": "2017-10-17T02:00:00.000Z",
+  "imagens": [],
+  "cliente": {
+      "cnpj_cpf": "10.755.327/0001-27",
+      "nome_razao_social": "LONG WAY COMERCIO DE PNEUS LTDA ME",
+      "inscricao_estadual": "442163987113",
+      "nome_fantasia": "LONG WAY COMERCIO PNEUS"
+  }
+},
+{
+  "_id": "59d530beba666900019594bb",
+  "createdAt": "2017-10-04T19:04:30.777Z",
+  "updatedAt": "2017-10-05T15:29:15.154Z",
+  "contato": {
+      "telefone": "1150692999",
+      "nome": "MARIA",
+      "_id": "59d530beba666900019594bd",
+      "observacao": "SUPER FACIL BIO USB\nSECULLUM\nMESMO SANTA CRUZ \n\nMESMO SACOLAO SAUDE\n\nATUALIZACAO SECULLUM 4.0 EM 24 05 2010\n\nORION 6 BIO PROX \n\n01 RELA?GIO HEXA BIO+PROX\n01 BOBINA DE 360 METROS.\n01 FONTE BATERIA\n03 BASES DE PROXIMIDADE DE CORTESIA.\nMA?DULO RP \n05/01/2017\nSHEILA\n\n21/06/2017\n01 CATRACA LUMEN CARD V BIO+BARRAS\n01 SOFTWARE SECULLUM 4 P/ 200 FUNCIONARIOS\nSHEILA\n\nCHAVE DE REGISTRO AESSO.NET LIBERADA EM 21/09/2017",
+      "celular": "1136663132",
+      "email": "maze.trajano@rigoradm.com.br"
+  },
+  "endereco": {
+      "uf": "SP",
+      "cidade": "SAO PAULO",
+      "numero": "278",
+      "bairro": "VILA BUARQUE",
+      "rua": "RUA DAS PALMEIRAS",
+      "cep": "01226010",
+      "_id": "59d530beba666900019594bc",
+      "ponto_referencia": "PRÓXIMO AO METRO SANTA CECILIA",
+      "complemento": ""
+  },
+  "createdBy": "natali",
+  "updatedBy": "natali",
+  "situacao": {
+      "motivo": "",
+      "status": "aberto"
+  },
+  "estado": "fim_do_atendimento",
+  "fim": "2017-10-05T15:27:07.352Z",
+  "inicio": "2017-10-05T15:14:28.192Z",
+  "km_final": {
+      "data": "2017-10-05T14:40:19.087Z",
+      "km": 131170
+  },
+  "km_inicio": {
+      "data": "2017-10-05T14:40:11.561Z",
+      "km": 131155
+  },
+  "observacao": "",
+  "avaliacao": [
+      {
+          "pergunta": "Como você avalia o atendimento do técnico?",
+          "_id": "59d64f61744b52000104627e",
+          "valor": 5
+      },
+      {
+          "pergunta": "Você indicaria a RealPonto?",
+          "_id": "59d64f61744b52000104627d",
+          "valor": 5
+      }
+  ],
+  "autorizado": "",
+  "valor": null,
+  "tipo": "Garantia venda",
+  "tecnico": {
+      "_id": "59d2739d580665000146b002",
+      "nome": "EMERSON PEREIRA DE SOUSA"
+  },
+  "estacionamento": "Cliente não informou",
+  "numero_equipamento": "0000",
+  "modelo_equipamento": "CIGARRA 100M",
+  "testes_efetuados": "SEM TESTES",
+  "descricao": "INSTALAR CATRACA CARD V - CONSERTO/TROCA + FAZER TESTES + COMUNICAR",
+  "data_atendimento": "2017-10-05T03:00:00.000Z",
+  "imagens": [
+      {
+          "url": "0e761caac755f93a9da50ea874f1cbd7.png",
+          "tipo": "inicio_atendimento",
+          "_id": "59d64fcb744b52000105a255"
+      },
+      {
+          "url": "7958dd37aa2df46abe6de30105036113.png",
+          "tipo": "fim_atendimento",
+          "_id": "59d64fcb744b52000105a2ae"
+      }
+  ],
+  "cliente": {
+      "cnpj_cpf": "05327676000108",
+      "nome_razao_social": "SACOLAO SANTA CECILIA LTDA",
+      "inscricao_estadual": "116478731114",
+      "nome_fantasia": "SACOLAO SANTA CECILIA"
+  }
+}]
+}
