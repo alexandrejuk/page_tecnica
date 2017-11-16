@@ -1,1 +1,1 @@
-export const TECNICOS = ['Rafael Neves', 'Vitor Silva Lima', 'Alenxadre Dos Santos', 'Emerson'];
+export const TECNICOS = ['Rafael Neves', 'Vitor Silva Lima', 'Alexandre Dos Santos', 'Emerson'];
