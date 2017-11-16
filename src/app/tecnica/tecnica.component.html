@@ -1,0 +1,53 @@
+<div class="row">
+<!-- search -->
+<div class="col-5">
+    <form>
+        <div class="form-group">
+          <label>Pesquisar Atendimento</label>
+          <input type="search" class="form-control"  placeholder="pequise aqui">
+          <small><a href="">Todos</a></small> /
+          <small><a href="">Cep</a></small> /
+          <small><a href="">Serviço</a></small>
+        </div>
+    </form>
+</div>
+
+<div class="col-7">
+    <form>
+        <div class="form-group">
+          <label>Pesquisar Técnico</label>
+          <input type="search" class="form-control"  placeholder="pequise aqui">
+        </div>
+    </form>
+</div>
+<hr class="col-12">
+<!-- end search -->
+
+  <!-- atendimentos -->
+  <div class="col-5">
+    <div class="card mt-2" [dragula]='"first-bag"' [dragulaModel]="atendimentos$" *ngFor="let atendimento of atendimentos$ | async">
+      <div class="card-content">
+        <div class="card-body">
+          <p class="title"><small>{{ atendimento?.cliente?.nome_razao_social }}</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end atendimentos -->
+
+  <!-- tecnico -->
+  <div class="col-7">
+   <div class="row">
+      <div class="col-6 mt-2" *ngFor="let tecnico of tecnicos">
+          <div class="card" style="width: 20rem;">
+              <div class="card-body">
+                  <h4 class="card-title">{{ tecnico }}</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Atendimentos: 0 </h6>
+                </div>
+              <div class="card-body" [dragula]='"first-bag"'></div>
+            </div>
+      </div>
+   </div>
+  </div>
+  <!-- end tecnico -->
+</div>

@@ -4,15 +4,14 @@ import { Observable } from 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class AssociarService {
+export class TecnicaService {
 
 private api = 'http://localhost:3000/atendimentos';
 
-  constructor(private http: Http) { }
+  constructor(private _http: Http) {}
 
-  getAtendimentos() {
-    return this.http
-       .get(this.api)
-       .map(atendimentos => atendimentos.json());
-   }
+  getAtendimentos(): Observable<any[]> {
+    return this._http.get(this.api).map(res => res.json());
+  }
 }
+
