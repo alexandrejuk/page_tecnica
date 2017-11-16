@@ -28,7 +28,16 @@
     <div class="card mt-2" [dragula]='"atendimentos"' [dragulaModel]="atendimentos$" *ngFor="let atendimento of atendimentos$ | async">
       <div class="card-content">
         <div class="card-body">
-          <p class="title"><small>{{ atendimento?.cliente?.nome_razao_social }}</small></p>
+          <p class="card-title">{{ atendimento?.cliente?.nome_razao_social }}</p>
+          <p class="card-subtitle mb-2 text-muted">{{ atendimento?.data_atendimento | date: 'dd/MM/yyyy'}}</p>
+          <p><small>Problema: {{ atendimento?.modelo_equipamento}} - {{ atendimento?.descricao}}<strong>
+             <br>Endereço:
+            {{ atendimento?.endereco?.cep }} -
+            {{ atendimento?.endereco?.rua }},
+            {{ atendimento?.endereco?.numero }}
+            {{ atendimento?.endereco?.bairro }},
+            {{ atendimento?.endereco?.cidade }} -
+            {{ atendimento?.endereco?.uf }}</strong></small></p>
         </div>
       </div>
     </div>
