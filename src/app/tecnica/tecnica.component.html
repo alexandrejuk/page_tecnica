@@ -25,7 +25,7 @@
 
   <!-- atendimentos -->
   <div class="col-5">
-    <div class="card mt-2" [dragula]='"first-bag"' [dragulaModel]="atendimentos$" *ngFor="let atendimento of atendimentos$ | async">
+    <div class="card mt-2" [dragula]='"atendimentos"' [dragulaModel]="atendimentos$" *ngFor="let atendimento of atendimentos$ | async">
       <div class="card-content">
         <div class="card-body">
           <p class="title"><small>{{ atendimento?.cliente?.nome_razao_social }}</small></p>
@@ -44,7 +44,7 @@
                   <h4 class="card-title">{{ tecnico }}</h4>
                   <h6 class="card-subtitle mb-2 text-muted">Atendimentos: 0 </h6>
                 </div>
-              <div class="card-body" [dragula]='"first-bag"'></div>
+              <div class="card-body" [dragula]='"atendimentos"'></div>
             </div>
       </div>
    </div>
