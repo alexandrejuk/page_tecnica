@@ -168,8 +168,7 @@
   "valor": null,
   "tipo": "Garantia externa",
   "tecnico": {
-      "id": "59d2739d580665000146b002",
-      "nome": "EMERSON PEREIRA DE SOUSA"
+    "nome": ""
   },
   "estacionamento": "Estacionamento no local",
   "numero_equipamento": "00000",
@@ -242,8 +241,7 @@
   "valor": null,
   "tipo": "Garantia externa",
   "tecnico": {
-      "id": "59d2728b580665000146ad67",
-      "nome": "DIEGO DE JESUS NUNES"
+    "nome": ""
   },
   "estacionamento": "Cliente não informou",
   "numero_equipamento": "03488",
@@ -311,8 +309,7 @@
   "valor": null,
   "tipo": "Contrato",
   "tecnico": {
-      "id": "59d27521580665000146b535",
-      "nome": "CLEITON ROBERIO CORDEIRO "
+    "nome": ""
   },
   "estacionamento": "Cliente não informou",
   "numero_equipamento": "00004001900025591",
@@ -374,8 +371,7 @@
   "valor": null,
   "tipo": "Garantia venda",
   "tecnico": {
-      "id": "59d27233580665000146aca1",
-      "nome": "ANTONIO CARLOS DE SOUSA JUNIOR"
+    "nome": ""
   },
   "estacionamento": "Cliente não informou",
   "numero_equipamento": "0000000",
@@ -499,8 +495,7 @@
   "valor": null,
   "tipo": "Contrato",
   "tecnico": {
-      "id": "59d2764e580665000146b985",
-      "nome": "PETERSON LUCIO ALVES"
+    "nome": ""
   },
   "estacionamento": "Cliente não informou",
   "numero_equipamento": "000000000000000",
@@ -562,8 +557,7 @@
   "valor": 437,
   "tipo": "NF - Avulso local",
   "tecnico": {
-      "id": "59d27233580665000146aca1",
-      "nome": "ANTONIO CARLOS DE SOUSA JUNIOR"
+    "nome": ""
   },
   "estacionamento": "Cliente não informou",
   "numero_equipamento": "0000000000000",
@@ -698,8 +692,7 @@
   "valor": null,
   "tipo": "Garantia venda",
   "tecnico": {
-      "id": "59d27326580665000146aecf",
-      "nome": "HERVERSON BARTHOLO MARQUES "
+    "nome": ""
   },
   "estacionamento": "Estacionamento no local",
   "numero_equipamento": "00000000000000000",
@@ -772,8 +765,7 @@
   "valor": null,
   "tipo": "Garantia venda",
   "tecnico": {
-      "id": "59d2739d580665000146b002",
-      "nome": "EMERSON PEREIRA DE SOUSA"
+    "nome": ""
   },
   "estacionamento": "Estacionamento no local",
   "numero_equipamento": "00",
@@ -903,8 +895,7 @@
   "valor": null,
   "tipo": "Contrato",
   "tecnico": {
-      "id": "59d2744d580665000146b1d3",
-      "nome": "ANDRÉ ALMEIDA CIRINO NUNES DA SILVA"
+    "nome": ""
   },
   "estacionamento": "Estacionamento no local",
   "numero_equipamento": "00",
@@ -977,8 +968,7 @@
   "valor": null,
   "tipo": "Garantia venda",
   "tecnico": {
-      "id": "59d2739d580665000146b002",
-      "nome": "EMERSON PEREIRA DE SOUSA"
+    "nome": ""
   },
   "estacionamento": "Cliente não informou",
   "numero_equipamento": "0000",
