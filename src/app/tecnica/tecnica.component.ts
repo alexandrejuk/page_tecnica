@@ -1,11 +1,6 @@
 import { errorObject } from 'rxjs/util/errorObject';
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Rx';
-
-import { DragulaService } from 'ng2-dragula/components/dragula.provider';
-
 import { TecnicaService } from './tecnica.service';
-import { TECNICOS } from './tecnicos.mock';
 
 @Component({
   selector: 'app-tecnica',
@@ -14,21 +9,31 @@ import { TECNICOS } from './tecnicos.mock';
 })
 export class TecnicaComponent implements OnInit {
 
-  public atendimentos$: Observable<any[]>;
-  public tecnicos = TECNICOS;
+
+  public atendimentos;
+  public tecnicos;
+
 
   constructor(private tecnicaService: TecnicaService) { }
 
   ngOnInit() {
-    this.atendimentos$ = this.tecnicaService.getAtendimentos();
+   this.tecnicaService.getAtendimentos()
+   .subscribe(atendimentos => 
+    this.atendimentos = atendimentos
+    .filter(atendimento => atendimento.tecnico.nome === ''));
+   
+   this.tecnicaService.getAtendimentosAssociado();
+
+   this.tecnicos = this.tecnicaService.tecnicos;
   }
 
-  transferDataSuccess($event: any) {
-console.log($event);
-    const tecnicoAssociado = $event.mouseEvent.target.innerHTML;
+
+  associarTecnico($event: any, tecnico) {
+      const tecnicoAssociado = tecnico.name;
     const atendimento = $event.dragData;
 
     atendimento.tecnico = { nome: tecnicoAssociado };
+
 
 
     this.tecnicos.filter(tecnico => {
@@ -40,7 +45,8 @@ console.log($event);
     });
 
     this.tecnicaService.putAtendimento(atendimento)
-                       .subscribe(res => console.log(res));
+                       .subscribe(res => res);
+
   }
 
 }

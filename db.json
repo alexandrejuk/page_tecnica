@@ -46,7 +46,9 @@
       "valor": 192,
       "tipo": "NF - Avulso local",
       "tecnico": {
-        "nome": "Alexandre dos Santos Lindo"
+
+        "nome": ""
+
       },
       "estacionamento": "Cliente não informou",
       "numero_equipamento": "000000",
@@ -108,7 +110,9 @@
       "valor": null,
       "tipo": "Garantia venda",
       "tecnico": {
-        "nome": "Rafael Neves"
+
+        "nome": ""
+
       },
       "estacionamento": "Estacionamento no local",
       "numero_equipamento": "0000",
