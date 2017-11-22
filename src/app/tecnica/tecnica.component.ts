@@ -1,3 +1,4 @@
+import { errorObject } from 'rxjs/util/errorObject';
 import { Component, OnInit } from '@angular/core';
 import { TecnicaService } from './tecnica.service';
 
@@ -8,8 +9,10 @@ import { TecnicaService } from './tecnica.service';
 })
 export class TecnicaComponent implements OnInit {
 
+
   public atendimentos;
   public tecnicos;
+
 
   constructor(private tecnicaService: TecnicaService) { }
 
@@ -24,11 +27,13 @@ export class TecnicaComponent implements OnInit {
    this.tecnicos = this.tecnicaService.tecnicos;
   }
 
+
   associarTecnico($event: any, tecnico) {
       const tecnicoAssociado = tecnico.name;
     const atendimento = $event.dragData;
 
     atendimento.tecnico = { nome: tecnicoAssociado };
+
 
 
     this.tecnicos.filter(tecnico => {
@@ -41,6 +46,7 @@ export class TecnicaComponent implements OnInit {
 
     this.tecnicaService.putAtendimento(atendimento)
                        .subscribe(res => res);
+
   }
 
 }

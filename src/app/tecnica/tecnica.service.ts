@@ -11,9 +11,8 @@ export class TecnicaService {
 
 private api = 'http://localhost:3000/atendimentos';
 public tecnicos = TECNICOS;
-
+  
 constructor(private _http: Http) { }
-
 
 getAtendimentos(): Observable<any[]> {
     return this._http.get(this.api).map((res) => res.json());
@@ -28,7 +27,6 @@ getAtendimentos(): Observable<any[]> {
       });
         return tecnico;
     });
-
   }
 
   putAtendimento(atendimento): Observable<any> {
