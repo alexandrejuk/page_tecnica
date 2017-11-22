@@ -1,3 +1,4 @@
+import { errorObject } from 'rxjs/util/errorObject';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Rx';
 
@@ -15,22 +16,33 @@ export class TecnicaComponent implements OnInit {
 
   public atendimentos$: Observable<any[]>;
   public tecnicos = TECNICOS;
-  constructor(private tecnicaService: TecnicaService,
-              private dragulaService: DragulaService) {
 
-                dragulaService.drag.subscribe((value) => {
-                  this.onDrag(value.slice(1));
-                });
-              }
+  constructor(private tecnicaService: TecnicaService) { }
 
   ngOnInit() {
     this.atendimentos$ = this.tecnicaService.getAtendimentos();
   }
 
+  transferDataSuccess($event: any) {
+console.log($event);
+    const tecnicoAssociado = $event.mouseEvent.target.innerHTML;
+    const atendimento = $event.dragData;
 
-  private onDrag(args) {
-    const [e, el] = args;
-    console.log(e, el);
-    console.log(args);
+    atendimento.tecnico = { nome: tecnicoAssociado };
+
+
+    this.tecnicos.filter(tecnico => {
+      const buscar = tecnico.name === tecnicoAssociado;
+      if  (buscar) {
+        tecnico.atd.push(atendimento);
+      }
+     return (tecnico);
+    });
+
+    this.tecnicaService.putAtendimento(atendimento)
+                       .subscribe(res => console.log(res));
   }
+
 }
+
+

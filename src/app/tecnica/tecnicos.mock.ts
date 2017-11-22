@@ -1,5 +1,5 @@
 export const TECNICOS = [
-  { id: 1, nome: 'Rafael Neves', atendimentos: [] },
-  { id: 2, nome: 'Felipe Franfresco', atendimentos: [] },
-  { id: 3, nome: 'Alexandre dos Santos Lindo', atendimentos: [] },
-  { id: 4, nome: 'Vitor Avenida dos Travecos', atendimentos: [] }];
+  { id: 1, name: 'Rafael Neves', atd: [] },
+  { id: 2, name: 'Felipe Franfresco', atd: [] },
+  { id: 3, name: 'Alexandre dos Santos Lindo', atd: [] },
+  { id: 4, name: 'Vitor Avenida dos Travecos', atd: [] }];
