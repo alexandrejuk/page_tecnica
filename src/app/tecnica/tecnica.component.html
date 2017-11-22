@@ -6,7 +6,7 @@
       <div class="panel-body">
         <div class="panel panel-default" >
           <div class="panel-body">
-            <div class="card card-title p-2" *ngFor="let atendimento of atendimentos$ | async" dnd-draggable [dragEnabled]="true" [dragData]="atendimento" >Empresa: {{ atendimento.cliente.nome_razao_social }} - Técnico: {{ atendimento.tecnico.nome }}</div>
+            <div class="card card-title p-2" *ngFor="let atd of atendimentos" dnd-draggable [dragEnabled]="true" [dragData]="atd" >Empresa: {{ atd.cliente.nome_razao_social }} - Técnico: {{ atd.tecnico.nome }}</div>
           </div>
         </div>
       </div>
@@ -14,8 +14,8 @@
   </div>
 
   <div class="col-7">
-    <div class="card mt-2 card-title p-2" dnd-droppable (onDropSuccess)="transferDataSuccess($event)" *ngFor="let tecnico of tecnicos"
-      [innerHTML]="tecnico.name">
+    <div class="card mt-2 card-title p-2" dnd-droppable (onDropSuccess)="associarTecnico($event, tecnico)" *ngFor="let tecnico of tecnicos">
+      {{ tecnico.name }}
       <div class="card-body">
         <div *ngFor="let atendimento of tecnico.atd">{{ atendimento.cliente.nome_razao_social }}</div>
       </div>
